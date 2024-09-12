@@ -1,0 +1,37 @@
+lines.linewidth: 1.5               # line width in points
+lines.linestyle: -                 # solid line
+
+font.family:  Arial
+font.style:   normal
+#font.size:    8.0
+
+axes.labelweight:   bold  # weight of the x and y labels
+
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    True
+axes.spines.right:  True
+
+xtick.direction: in
+xtick.top: True
+ytick.direction: in
+ytick.right: True
+
+legend.frameon: False
+#legend.fontsize: 6
+legend.labelspacing: 0.8
+legend.handlelength: 3.0
+legend.borderaxespad: 1.2
+
+
+figure.dpi:         300       # figure dots per inch
+figure.subplot.left:   0.125  # the left side of the subplots of the figure
+figure.subplot.right:  0.9    # the right side of the subplots of the figure
+figure.subplot.bottom: 0.20   # the bottom of the subplots of the figure
+figure.subplot.top:    0.88   # the top of the subplots of the figure
+figure.subplot.wspace: 0.6    # the amount of width reserved for space between subplots,
+#                               expressed as a fraction of the average axis width
+figure.subplot.hspace: 0.6    # the amount of height reserved for space between subplots,
+#                               expressed as a fraction of the average axis height
+
+figure.constrained_layout.use: True
